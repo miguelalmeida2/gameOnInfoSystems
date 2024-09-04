@@ -1,0 +1,21 @@
+--apaga todos os dados existentes nas tabelas
+BEGIN TRANSACTION;
+DELETE FROM Estatisticas_Jogador;
+DELETE FROM Estatisticas_Jogo;
+DELETE FROM CrachaJogador;
+DELETE FROM Cracha;
+DELETE FROM Pontuacoes_Normal;
+DELETE FROM Pontuacoes_Multi_Jogador;
+DELETE FROM Partida_Normal;
+DELETE FROM Partida_Multi_Jogador;
+DELETE FROM Partida_Normal;
+DELETE FROM Partida;
+DELETE FROM Compra;
+DELETE FROM Jogo;
+DELETE FROM Mensagem;
+DELETE FROM ConversaMembros;
+DELETE FROM Conversa;
+DELETE FROM Amizade;
+DELETE FROM Jogador;
+DELETE FROM Regiao;
+END TRANSACTION;
